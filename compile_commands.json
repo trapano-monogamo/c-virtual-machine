@@ -1,0 +1,36 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-std=c11",
+      "-I./include",
+      "-o",
+      "mvm",
+      "./src/machine.c"
+    ],
+    "directory": "/home/noemi/programs/c-c++/mvm",
+    "file": "/home/noemi/programs/c-c++/mvm/src/machine.c",
+    "output": "/home/noemi/programs/c-c++/mvm/mvm"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-std=c11",
+      "-I./include",
+      "-o",
+      "mvm",
+      "./src/main.c"
+    ],
+    "directory": "/home/noemi/programs/c-c++/mvm",
+    "file": "/home/noemi/programs/c-c++/mvm/src/main.c",
+    "output": "/home/noemi/programs/c-c++/mvm/mvm"
+  }
+]
