@@ -14,6 +14,7 @@ int fetch(machine_t *machine)
 
 void eval(machine_t *machine, int instr)
 {
+
 #define ip (machine->registers[IP])
 #define sp (machine->registers[SP])
 #define stack (machine->stack)
@@ -97,6 +98,7 @@ void eval(machine_t *machine, int instr)
 #undef sp
 #undef stack
 #undef program
+
 }
 
 void run(machine_t *machine)

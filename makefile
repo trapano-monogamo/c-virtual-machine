@@ -8,3 +8,8 @@ all:
 
 run: all
 	./mvm
+
+.PHONY: clean
+
+clean:
+	-rm ./mvm
